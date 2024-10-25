@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    max-width: 100%;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding: 10px;
+}
+main{
+    margin: 70px auto;
+    border: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 400px;
+    padding: 30px;
+}
+img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    justify-content: center;
+    align-content: center;
+}
+button{
+    background-color: hsl(0, 0%, 20%);
+    border: 3px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 95%;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+}
+.Gendiv{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.div1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.div2{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+button:hover{
+    border: 2px solid hsl(0, 0%, 100%);
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+.graph{
+    font-size: 25px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
